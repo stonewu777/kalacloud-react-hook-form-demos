@@ -20,7 +20,7 @@ function AsyncForm() {
   return (
     <div>
       <h1>react-hook-form 异步使用方法</h1>
-      <h2>卡拉云 - 低代码开发工具，1秒搭建上传后台</h2>
+      <h2>「卡拉云 - 极速搭建企业内部工具，十倍提升开发效率」 </h2>
       <form onSubmit={handleSubmit(onSubmit)}>
         <label htmlFor="username">用户名</label>
         <input {...register("username")} />

@@ -11,7 +11,7 @@ function NestedForm() {
   return (
     <div className="nested-form">
       <h2>react-hook-form 嵌套表单使用方法</h2>
-      <h3>卡拉云 - 低代码开发工具，1秒搭建上传后台</h3>
+      <h3>「卡拉云 - 极速搭建企业内部工具，十倍提升开发效率」 </h3>
       <form onSubmit={handleSubmit(onSubmit)}>
         <FormSection1 register={register} />
         <FormSection2 register={register} />
